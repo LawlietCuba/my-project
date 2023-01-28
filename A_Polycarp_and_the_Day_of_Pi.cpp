@@ -9,7 +9,18 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    cout << setprecision(20) << acos(-1) << "\n";
+   double pi = acos(-1);
+
+   int t;
+   cin >> t;
+
+    while(t--)
+    {
+        int n;
+        cin >> n;
+
+        // Important part of the program
+    }
 
     return 0;
 }
